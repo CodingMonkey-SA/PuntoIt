@@ -5,107 +5,218 @@
   <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
   <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
   <link href="pagePiling/jquery.pagepiling.css" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="OwlCarousel/assets/owl.carousel.css">
+  <title>Italian Trattoria</title>
 </head>
 <body>
 
 <style>
-  .section{
-    padding:0;
-  }
+.section{
+  padding:0;
+}
+label{
+  font-size: 20px;
+}
 </style>
 
 <div class="navbar navbar-default navbar-inverse navbar-static-top">
-      <div class="container">
-        <div class="navbar-header">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-          </button>
-          <a class="navbar-brand"><img height="20" alt="Brand" src="http://www.puntoitalian.it/logo_it.png"></a>
-        </div>
-        <div class="collapse navbar-collapse" id="navbar-ex-collapse">
-          <ul class="nav navbar-nav navbar-right">
-            <li>
-              <a href="demo1.html">Scroll Vertical</a>
-            </li>
-            <li>
-              <a href="demo2.html">Scroll Horizontal</a>
-            </li>
-          </ul>
-        </div>
-      </div>
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-ex-collapse">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a href="demo1.html" class="navbar-brand"><img height="20" alt="Brand" src="images/puntoItLogo.png"></a>
     </div>
+    <div class="collapse navbar-collapse" id="navbar-ex-collapse">
+      <ul class="nav navbar-nav navbar-right">
+        <li>
+          <a href="demo1.html">Scroll Vertical</a>
+        </li>
+        <li>
+          <a href="demo2.html">Scroll Horizontal</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
 
+<div id="pagepiling">
 
-  <div id="pagepiling">
-
-    <div class="section">
-        <div class="cover">
-          <div class="cover-image" style="background-color : black;"></div>
-          <div class="container">
-            <div class="row">
-              <div class="col-md-12 text-center">
-                <br>
-                <br>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-12">
-                <img src="http://www.puntoitalian.it/logo_it.png" class="center-block img-responsive" style="height:65%; margin-bottom: 10%;">
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-<div class="section">
+  <div class="section">
     <div class="cover">
-      <div class="cover-image" style="background-image : url('https://unsplash.imgix.net/photo-1418479631014-8cbf89db3431?w=1024&amp;q=50&amp;fm=jpg&amp;s=478a9a2196033db7c0bf3c8ba3707f4d')"></div>
+      <div class="cover-image" style="background-color : black;"></div>
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h1 class="text-inverse">Punto it slide 2</h1>
-            <p class="text-inverse">Lorem ipsum dolor sit amet, consectetur adipisici eli.</p>
             <br>
             <br>
-            <a class="btn btn-lg btn-primary">Click me</a>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12">
+            <img src="http://www.puntoitalian.it/imgs/logo.png" class="center-block img-responsive" style="height:65%; margin-bottom: 10%;">
           </div>
         </div>
       </div>
     </div>
   </div>
 
-<div class="section">
+
+  <div class="section">
     <div class="cover">
-      <div class="cover-image" style="background-image : url('https://unsplash.imgix.net/photo-1415871989540-61fe9268d3c8?w=1024&amp;q=50&amp;fm=jpg&amp;s=d4ccd3c8661437d6e3ea5e88c63c647f')"></div>
+      <div class="cover-image" style="background-image : url('http://media-channel.nationalgeographic.com/media/uploads/photos/content/video/2014/11/15/359103555862_359103555862_1080i_5994_ItalianLagers_DMShort.jpg')"></div>
       <div class="container">
         <div class="row">
-          <div class="col-md-12 text-center">
-            <h1 class="text-inverse">Punto it slide 3</h1>
-            <p class="text-inverse">Lorem ipsum dolor sit amet, consectetur adipisici eli.</p>
-            <br>
-            <br>
-            <a class="btn btn-lg btn-primary">Click me</a>
+          <div class="col-md-12 text-center hidden-xs">
+            <h1 class="text-inverse">Italian Trattoria</h1>
+            <p class="text-inverse">Nuestros Platos</p>
+            <div class="slickAble">
+              <div><a href="#" class="slideClickable"><img class="img-responsive" src="images/menu1.jpg"></a></div>
+              <div><a href="#" class="slideClickable"><img class="img-responsive" src="images/menu2.jpg"></a></div>
+              <div><a href="#" class="slideClickable"><img class="img-responsive" src="images/menu1.jpg"></a></div>
+              <div><a href="#" class="slideClickable"><img class="img-responsive" src="images/menu2.jpg"></a></div>
+              <div><a href="#" class="slideClickable"><img class="img-responsive" src="images/menu1.jpg"></a></div>
+              <div><a href="#" class="slideClickable"><img class="img-responsive" src="images/menu2.jpg"></a></div>
+            </div>
+          </div>
+          <div class="col-md-12 text-center hidden-lg hidden-md hidden-sm">
+            <h1 class="text-inverse">Italian Trattoria</h1>
+            <p class="text-inverse">Nuestros Platos</p>
+            <a href="menu.html" type="button" class="btn btn-lg btn-warning hidden-lg hidden-md" style="margin-bottom:4%">Menú</a>
           </div>
         </div>
       </div>
-</div>
     </div>
+  </div>
 
-<div class="section">
+
+  <div class="section">
     <div class="cover">
-      <div class="cover-image" style="background-image : url('https://ununsplash.imgix.net/photo-1415302199888-384f752645d0?w=1024&amp;q=50&amp;fm=jpg&amp;s=823bdcc1b7ad955f5180efd352561016')"></div>
+      <div class="cover-image" style="background-image : url('http://psastoria.com/wp-content/uploads/2015/08/ps-pizza-bg05.jpg')"></div>
       <div class="container">
         <div class="row">
           <div class="col-md-12 text-center">
-            <h1 class="text-inverse">Punto it slide 4</h1>
-            <p class="text-inverse">Lorem ipsum dolor sit amet, consectetur adipisici eli.</p>
+            <h1 class="text-inverse">Nosotros</h1>
+            <p class="text-inverse">Lorem ipsum dolor sit amet, consectetur adipisici eliLorem ipsum dolor sit amet, consectetur adipisici eliLorem ipsum dolor sit amet, consectetur adipisici eliLorem ipsum dolor sit amet, consectetur adipisici eliLorem ipsum dolor sit amet, consectetur adipisici eli.</p>
             <br>
-            <br>
-            <a class="btn btn-lg btn-primary">Click me</a>
+            <button type="submit" class="btn btn-lg btn-warning hidden-lg hidden-md" style="margin-bottom:4%">Ver más</button>
           </div>
+        </div>
+        <div class="container hidden-sm hidden-xs" style="background-color: rgba(6, 6, 6, 0.56); padding-top:1%;">
+          <div class="row">
+            <div class="col-md-4">
+              <img src="images/info1.jpg"
+              class="img-responsive">
+              <h2 class="text-center text-inverse">Info Imagen</h2>
+            </div>
+            <div class="col-md-4">
+              <img src="images/info2.jpg"
+              class="img-responsive">
+              <h2 class="text-center text-inverse">Info Imagen</h2>
+            </div>
+            <div class="col-md-4">
+              <img src="images/info3.jpg"
+              class="img-responsive">
+              <h2 class="text-center text-inverse">Info Imagen</h2>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+  <div class="section">
+    <div class="cover">
+      <div class="cover-image" style="background-image : url('http://wallpaperbeta.com/wallpaper_800x600/pizza_food_table_board_goblet_wine_italy_800x600_hd-wallpaper-373246.jpg')"></div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-6">
+                  <form role="form" class="text-left">
+                    <div class="form-group">
+
+
+                      <div class="hidden-lg hidden-md">
+                        <div class="container">
+                          <div class="row text-center">
+                            <div class="col-xs-3 text-center">
+                              <a><i class="fa fa-3x fa-fw fa-instagram" style="color:#BB5103;"></i></a>
+                            </div>
+                            <div class="col-xs-3 text-center">
+                              <a><i class="fa fa-3x fa-fw fa-twitter text-info"></i></a>
+                            </div>
+                            <div class="col-xs-3 text-center">
+                              <a href="https://www.facebook.com/Puntoitalian.it/?fref=ts" target="_blank"><i class="fa fa-3x fa-fw fa-facebook"></i></a>
+                            </div>
+                            <div class="col-xs-3 text-center">
+                              <a href="https://www.google.com/maps?ll=-34.916916,-57.95183&z=17&t=m&hl=en&gl=US&mapclient=embed&q=Calle+50+704+B1900ATD+La+Plata+Buenos+Aires,+Argentina" target="_blank"><i class="fa fa-3x fa-fw hub fa-map-marker text-danger"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="hidden-sm hidden-xs">
+                        <div class="container">
+                          <div class="row text-center">
+                            <div class="col-xs-4 text-center">
+                              <a><i class="fa fa-4x fa-fw fa-instagram" style="color:#BB5103;"></i></a>
+                            </div>
+                            <div class="col-xs-4 text-center">
+                              <a><i class="fa fa-4x fa-fw fa-twitter text-info"></i></a>
+                            </div>
+                            <div class="col-xs-4 text center">
+                              <a href="https://www.facebook.com/Puntoitalian.it/?fref=ts" target="_blank"><i class="fa fa-4x fa-fw fa-facebook"></i></a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+
+                      <h1 style="margin-bottom:2% ; color:white ;">Contacto</h1>
+                      <label style="color:white ;" class="control-label" for="name">Nombre</label>
+                      <input class="form-control" id="name" placeholder="Nombre" type="text">
+                      <label style="color:white ;" class="control-label" for="email">Email</label>
+                      <input class="form-control" id="email" placeholder="Email" type="email">
+                      <label style="color:white ;" class="control-label" for="comment">Mensaje</label>
+                      <textarea style="resize: none;" rows="8" id="comment" class="form-control" for="comment" placeholder="Mensaje"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-warning" style="margin-bottom:4% ; color:black;">Enviar</button>
+                  </form>
+
+                </div>
+                <div class="col-md-6 hidden-sm hidden-xs">
+                  <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="500" height="500" src="https://maps.google.com/maps?hl=en&q= Calle 50 704,Casco Urbano,B1900ATD La Plata,Buenos Aires&ie=UTF8&t=satellite&z=17&iwloc=B&output=embed"></iframe>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="modal fade" id="menuModal">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title">Menú X</h4>
+        </div>
+        <div class="modal-body">
+          <p>Descripción del menú</p>
+          <img class="img-responsive" src="https://scontent-gru2-1.xx.fbcdn.net/hphotos-xfa1/v/t1.0-9/1937010_923728237703009_3468336932957280124_n.jpg?oh=a695e5356e90caafcc4201da69cf1770&oe=57047F7B">
+        </div>
+        <div class="modal-footer">
+          <a class="btn btn-default" data-dismiss="modal">Volver</a>
         </div>
       </div>
     </div>
@@ -113,9 +224,10 @@
 
 </div>
 
-  <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-  <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-  <script type="text/javascript" src="pagePiling/jquery.pagepiling.js"></script>
-  <script type="text/javascript" src="scripts2.js"></script>
+<script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script type="text/javascript" src="pagePiling/jquery.pagepiling.js"></script>
+<script src="OwlCarousel/owl.carousel.min.js"></script>
+<script type="text/javascript" src="scripts2.js"></script>
 </body>
 </html>
