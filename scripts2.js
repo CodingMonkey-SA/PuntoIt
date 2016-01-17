@@ -1,6 +1,7 @@
 $(document).ready(function() {
   $('#pagepiling').pagepiling({
     direction: 'horizontal',
+    anchors:['index', 'menu', 'nosotros', 'contacto']
   });
 
   $(".slickAble").owlCarousel({
